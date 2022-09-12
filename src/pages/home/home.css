@@ -1,0 +1,18 @@
+.news-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-post-RXJS {
+    width: 500px;
+    border-left: 5px solid #0266d0;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e6e6e6;
+    box-shadow: 0 4px 8px #0003, 0 6px 20px #00000030;
+}
+
+.news-post-RXJS a img {
+    width: 100%;
+}
