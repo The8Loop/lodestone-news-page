@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { map, Observable } from "rxjs";
 import { NewsPost } from "../../shared/header/news-post/news-post";
 import "./home.css";
@@ -57,6 +58,9 @@ export class Home extends React.Component {
       return (
         <div className="home">
           <div className="news-flex-container">{this.generateNewsPosts()}</div>
+          <Link to="/testPage">
+            <button>To Test Page</button>
+          </Link>
         </div>
       );
     }
